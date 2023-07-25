@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Shop</title>
+    <!-- Daisy UI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind color -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- font lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/a564956792.js" crossorigin="anonymous"></script>
+    <!-- font style -->
+    <style>
+        .font-lato {
+            font-family: 'Lato', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+
+        <nav class="bg-white md:bg-[#F85559] lg:bg-[#F85559] p-4 md:p-8 m-4 md:m-12 rounded-full">
+            <div class="container mx-auto flex justify-between items-center">
+                <!-- Left-side menu items -->
+                <ul class="hidden md:flex space-x-4 text-lg md:text-sm lg:text-base md:gap-3">
+                    <li><a href="#" class="text-white">Home</a></li>
+                    <li><a href="#" class="text-white">About Us</a></li>
+                    <li><a href="#" class="text-white">Shop</a></li>
+                    <li><a href="#" class="text-white">Online</a></li>
+                </ul>
+
+                <!-- Middle logo and name -->
+                <div class="flex items-center space-x-2">
+                    <img class="ml-2" src="./images/logo.png" alt="Shop Logo" class="w-8 h-8">
+                    <span class="text-black  md:text-white  lg:text-white font-bold text-4xl lg:text-4xl md:text-lg">Fruit Burst</span>
+                </div>
+
+                <!-- Hamburger menu icon for small devices -->
+                <div class="md:hidden flex items-center">
+                    <i class="fa-solid fa-bars text-black text-2xl"></i>
+                </div>
+
+                <!-- Right-side search bar -->
+                <div class="hidden md:flex items-center bg-white rounded-full px-4">
+                    <input type="text" placeholder="Search"
+                        class="px-4 py-2 rounded-full bg-transparent text-gray-800 focus:outline-none">
+                    <i class="fa-solid fa-magnifying-glass text-gray-800"></i>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
