@@ -213,33 +213,47 @@
                 <!-- Card 1 -->
                 <div class="card w-96 bg-base-100 shadow-xl">
                     <figure class="px-10 pt-10">
-                        <img src="./images/fruit6.png" alt="Shoes" class="rounded-xl" />
+                      <img src="./images/fruit6.png" alt="Apples" class="rounded-xl" />
                     </figure>
                     <div class="card-body items-center text-center">
-                        <h2 class="card-title text-2xl">12.90$ - 18.85$</h2>
-                        <p class="text-sm">Apples</p>
+                      <h2 class="card-title text-2xl">12.90$ - 18.85$</h2>
+                      <p class="text-sm">Apples</p>
+                      <div class="rating">
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                      </div>
+                      
+                    </div>
+                    <!-- Open the modal using :target pseudo-class -->
+                    <a href="#my_modal_5" class="btn bg-white text-[#F85559] text-xs pb-10">Details</a>
+                    <div id="my_modal_5" class="modal">
+                      <div class="modal-box">
+                        
+                        <div class="flex flex-col items-center gap-4">
+                            <img src="./images/fruit6.png" alt="">
+                        <h3 class="font-bold text-lg">Apples</h3>
+                        <p>Professional employees are there for you to pick the most <br> amazing and fresh fruits.</p>
                         <div class="rating">
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                          </div>
+                          <div class="flex flex-row gap-6 ">
+                          <button class="btn btn-primary mt-6 rounded bg-[#F85559] border-none">Shop Now</button>
+                          <div class="modal-action">
+                            <!-- Add a link to close the modal -->
+                            <a href="#" class="btn bg-white rounded border-[#F85559]">Close</a>
+                          </div>
                         </div>
-
+                        </div>
+                         </div>
                     </div>
-                    <!-- Open the modal using ID.showModal() method -->
-                    <button class="btn bg-white text-[#F85559] text-xs pb-10" onclick="my_modal_5.showModal()">Details</button>
-                    <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
-                        <form method="dialog" class="modal-box">
-                            <h3 class="font-bold text-lg">Hello!</h3>
-                            <p class="py-4">Press ESC key or click the button below to close</p>
-                            <div class="modal-action">
-                                <!-- if there is a button in form, it will close the modal -->
-                                <button class="btn">Close</button>
-                            </div>
-                        </form>
-                    </dialog>
-                </div>
+                  </div>
                 <!-- Card 2 -->
                 <div class="card w-96 bg-base-100 shadow-xl">
                     <figure class="px-10 pt-10">
@@ -257,18 +271,32 @@
                         </div>
 
                     </div>
-                    <!-- Open the modal using ID.showModal() method -->
-                    <button class="btn bg-white text-[#F85559] text-xs pb-10" onclick="my_modal_5.showModal()">Details</button>
-                    <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
-                        <form method="dialog" class="modal-box">
-                            <h3 class="font-bold text-lg">Hello!</h3>
-                            <p class="py-4">Press ESC key or click the button below to close</p>
-                            <div class="modal-action">
-                                <!-- if there is a button in form, it will close the modal -->
-                                <button class="btn">Close</button>
-                            </div>
-                        </form>
-                    </dialog>
+                    <!-- Open the modal using :target pseudo-class -->
+                    <a href="#my_modal_6" class="btn bg-white text-[#F85559] text-xs pb-10">Details</a>
+                    <div id="my_modal_6" class="modal">
+                      <div class="modal-box">
+                        
+                        <div class="flex flex-col items-center gap-4">
+                            <img src="./images/fruit7.png" alt="">
+                        <h3 class="font-bold text-lg">Orange</h3>
+                        <p>Professional employees are there for you to pick the most <br> amazing and fresh fruits.</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                          </div>
+                          <div class="flex flex-row gap-6 ">
+                          <button class="btn btn-primary mt-6 rounded bg-[#F85559] border-none">Shop Now</button>
+                          <div class="modal-action">
+                            <!-- Add a link to close the modal -->
+                            <a href="#" class="btn bg-white rounded border-[#F85559]">Close</a>
+                          </div>
+                        </div>
+                        </div>
+                         </div>
+                    </div>
                 </div>
                 <!-- Card 3 -->
                 <div class="card w-96 bg-base-100 shadow-xl">
@@ -287,18 +315,32 @@
                         </div>
 
                     </div>
-                    <!-- Open the modal using ID.showModal() method -->
-                    <button class="btn bg-white text-[#F85559] text-xs pb-10" onclick="my_modal_5.showModal()">Details</button>
-                    <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
-                        <form method="dialog" class="modal-box">
-                            <h3 class="font-bold text-lg">Hello!</h3>
-                            <p class="py-4">Press ESC key or click the button below to close</p>
-                            <div class="modal-action">
-                                <!-- if there is a button in form, it will close the modal -->
-                                <button class="btn">Close</button>
-                            </div>
-                        </form>
-                    </dialog>
+                     <!-- Open the modal using :target pseudo-class -->
+                     <a href="#my_modal_7" class="btn bg-white text-[#F85559] text-xs pb-10">Details</a>
+                     <div id="my_modal_7" class="modal">
+                       <div class="modal-box">
+                         
+                         <div class="flex flex-col items-center gap-4">
+                             <img src="./images/fruit8.png" alt="">
+                         <h3 class="font-bold text-lg">Dragon</h3>
+                         <p>Professional employees are there for you to pick the most <br> amazing and fresh fruits.</p>
+                         <div class="rating">
+                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                           </div>
+                           <div class="flex flex-row gap-6 ">
+                           <button class="btn btn-primary mt-6 rounded bg-[#F85559] border-none">Shop Now</button>
+                           <div class="modal-action">
+                             <!-- Add a link to close the modal -->
+                             <a href="#" class="btn bg-white rounded border-[#F85559]">Close</a>
+                           </div>
+                         </div>
+                         </div>
+                          </div>
+                     </div>
                 </div>
                 <!-- Card 4 -->
                 <div class="card w-96 bg-base-100 shadow-xl">
@@ -317,18 +359,32 @@
                         </div>
 
                     </div>
-                    <!-- Open the modal using ID.showModal() method -->
-                    <button class="btn bg-white text-[#F85559] text-xs pb-10" onclick="my_modal_5.showModal()">Details</button>
-                    <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
-                        <form method="dialog" class="modal-box">
-                            <h3 class="font-bold text-lg">Hello!</h3>
-                            <p class="py-4">Press ESC key or click the button below to close</p>
-                            <div class="modal-action">
-                                <!-- if there is a button in form, it will close the modal -->
-                                <button class="btn">Close</button>
-                            </div>
-                        </form>
-                    </dialog>
+                     <!-- Open the modal using :target pseudo-class -->
+                     <a href="#my_modal_8" class="btn bg-white text-[#F85559] text-xs pb-10">Details</a>
+                     <div id="my_modal_8" class="modal">
+                       <div class="modal-box">
+                         
+                         <div class="flex flex-col items-center gap-4">
+                             <img src="./images/fruit9.png" alt="">
+                         <h3 class="font-bold text-lg">Banana</h3>
+                         <p>Professional employees are there for you to pick the most <br> amazing and fresh fruits.</p>
+                         <div class="rating">
+                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                           </div>
+                           <div class="flex flex-row gap-6 ">
+                           <button class="btn btn-primary mt-6 rounded bg-[#F85559] border-none">Shop Now</button>
+                           <div class="modal-action">
+                             <!-- Add a link to close the modal -->
+                             <a href="#" class="btn bg-white rounded border-[#F85559]">Close</a>
+                           </div>
+                         </div>
+                         </div>
+                          </div>
+                     </div>
                 </div>
                 
                 
