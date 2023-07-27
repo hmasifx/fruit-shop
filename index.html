@@ -29,7 +29,7 @@
     <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/a564956792.js" crossorigin="anonymous"></script>
-    
+
 
 
     <!-- font style -->
@@ -38,7 +38,7 @@
             font-family: 'Lato', sans-serif;
         }
     </style>
-    
+
 </head>
 
 <body class="container mx-auto">
@@ -69,12 +69,12 @@
                 <details class="dropdown -mb-13 lg:hidden md:hidden">
                     <summary class="m-1 btn"><i class="fa-solid fa-bars text-black text-2xl"></i></summary>
                     <ul class="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
-                      <li><a>Home</a></li>
-                      <li><a>About Us</a></li>
-                      <li><a>Shop</a></li>
-                      <li><a>All Fruits</a></li>
+                        <li><a>Home</a></li>
+                        <li><a>About Us</a></li>
+                        <li><a>Shop</a></li>
+                        <li><a>All Fruits</a></li>
                     </ul>
-                  </details>
+                </details>
 
                 <!-- Right-side search bar -->
                 <div class="hidden md:flex items-center bg-white rounded-full px-4">
@@ -521,8 +521,9 @@
                 <div class="flex flex-col lg:flex-row flex-1 justify-around">
                     <div class="flex flex-col  order-last lg:order-first">
                         <!-- Card 1 -->
-                        <div class=" rounded-lg  px-4 py-2 flex items-center ">
-                            <div class="mr-4">
+                        <div class=" rounded-lg  px-4 py-2 flex-row items-center text-center lg:flex lg:text-left ">
+                            <div class="mr-4 flex justify-center sm:justify-start md:justify-start md:justify-center">
+                                <!-- Added 'flex' and 'justify-center' classes -->
                                 <img src="./images/group 1.svg" alt="Icon" class="w-6 h-6" />
                             </div>
                             <div>
@@ -534,21 +535,23 @@
                         </div>
 
                         <!-- Card 2 -->
-                        <div class=" rounded-lg px-4 py-2 flex items-center">
-                            <div class="mr-4">
+                        <div class=" rounded-lg  px-4 py-2 flex-row items-center text-center lg:flex lg:text-left ">
+                            <div class="mr-4 flex justify-center sm:justify-start md:justify-start md:justify-center">
+                                <!-- Added 'flex' and 'justify-center' classes -->
                                 <img src="./images/love 1.svg" alt="Icon" class="w-6 h-6" />
                             </div>
                             <div>
                                 <h3 class="text-xl font-semibold mb-2">Fresh is Best</h3>
                                 <div class="border-b border-gray-500 mb-2"></div>
-                                <p class="text-gray-700">Professional employees are there for you to pick <br> the most
+                                <p class="text-gray-700">Professional employees are there for you to pick <br>the most
                                     amazing and fresh fruits.</p>
                             </div>
                         </div>
 
                         <!-- Card 3 -->
-                        <div class=" rounded-lg px-4 py-2 flex items-center">
-                            <div class="mr-4">
+                        <div class=" rounded-lg  px-4 py-2 flex-row items-center text-center lg:flex lg:text-left ">
+                            <div class="mr-4 flex justify-center sm:justify-start md:justify-center">
+                                <!-- Added 'flex' and 'justify-center' classes -->
                                 <img src="./images/gift-box 1.svg" alt="Icon" class="w-6 h-6" />
                             </div>
                             <div>
@@ -560,15 +563,16 @@
                         </div>
                     </div>
                     <!-- div2 -->
-                    <div class="w-full md:w-full lg:w-1/4">
+                    <!-- div2 -->
+                    <div class="w-full md:w-full lg:w-1/4 flex justify-center md:justify-center">
                         <img src="./images/whychoose1.png" alt="">
-
                     </div>
+
                     <!-- div 3 -->
                     <div class="flex flex-col flex-row-reverse text-right">
                         <!-- Card 1 -->
-                        <div class=" rounded-lg px-4 py-2 flex items-center">
-                            <div class="ml-4 order-last">
+                        <div class=" rounded-lg  px-4 py-2 flex-row items-center text-center lg:flex lg:text-right ">
+                            <div class="ml-4 flex justify-center sm:justify-start md:justify-center order-last">
                                 <img src="./images/fruit 1.svg" alt="Icon" class="w-6 h-6" />
                             </div>
                             <div>
@@ -580,8 +584,8 @@
                         </div>
 
                         <!-- Card 2 -->
-                        <div class=" rounded-lg px-4 py-2 flex items-center">
-                            <div class="ml-4 order-last">
+                        <div class=" rounded-lg  px-4 py-2 flex-row items-center text-center lg:flex lg:text-right">
+                            <div class="ml-4 flex justify-center sm:justify-start md:justify-center order-last">
                                 <img src="./images/ice-cream 1.svg" alt="Icon" class="w-6 h-6" />
                             </div>
                             <div>
@@ -593,8 +597,8 @@
                         </div>
 
                         <!-- Card 3 -->
-                        <div class=" rounded-lg px-4 py-2 flex items-center">
-                            <div class="ml-4 order-last">
+                        <div class=" rounded-lg  px-4 py-2 flex-row items-center text-center lg:flex lg:text-right">
+                            <div class="ml-4 flex justify-center sm:justify-start md:justify-center order-last">
                                 <img src="./images/like 1.svg" alt="Icon" class="w-6 h-6" />
                             </div>
                             <div>
@@ -614,38 +618,39 @@
             </section>
     </main>
 
-    <footer class="bg-black m-5 p-10 footer footer-center p-10 bg-base-200 text-base-content rounded text-white mx-auto">
-<div class="flex justify-center items-center gap-3">
-        <div>
-            <img src="./images/logo.png" alt="">
-        </div>
-        <div>
-            <h2 class="text-white text-4xl">Fruit Burst</h2>
+    <footer
+        class="bg-black m-5 p-10 footer footer-center p-10 bg-base-200 text-base-content rounded text-white mx-auto">
+        <div class="flex justify-center items-center gap-3">
+            <div>
+                <img src="./images/logo.png" alt="">
+            </div>
+            <div>
+                <h2 class="text-white text-4xl">Fruit Burst</h2>
 
+            </div>
         </div>
-    </div>
 
-    <div class="grid grid-flow-col gap-4">
-        <a class="link link-hover">Home</a> 
-        <a class="link link-hover">About us</a> 
-        <a class="link link-hover">Shop</a> 
-        <a class="link link-hover">All fruits</a>
-        <a class="link link-hover">Supports</a> 
-        <a class="link link-hover">My Account</a>
-      </div> 
-      <div>
-        <div class="grid grid-flow-col gap-7 ">
-          
-          <a><i class="fa-brands fa-linkedin-in"></i></a>
-          <a><i class="fa-brands fa-twitter"></i></a>
-          <a><i class="fa-brands fa-facebook-f"></i></i></a>
-          <a><i class="fa-brands fa-square-youtube"></i></i></a>
-          <a><i class="fa-brands fa-square-instagram"></i></a>
-          <a><i class="fa-solid fa-apple-whole"></i></a>
-          
+        <div class="grid grid-flow-col gap-4">
+            <a class="link link-hover">Home</a>
+            <a class="link link-hover">About us</a>
+            <a class="link link-hover">Shop</a>
+            <a class="link link-hover">All fruits</a>
+            <a class="link link-hover">Supports</a>
+            <a class="link link-hover">My Account</a>
         </div>
-      </div> 
-      
+        <div>
+            <div class="grid grid-flow-col gap-7 ">
+
+                <a><i class="fa-brands fa-linkedin-in"></i></a>
+                <a><i class="fa-brands fa-twitter"></i></a>
+                <a><i class="fa-brands fa-facebook-f"></i></i></a>
+                <a><i class="fa-brands fa-square-youtube"></i></i></a>
+                <a><i class="fa-brands fa-square-instagram"></i></a>
+                <a><i class="fa-solid fa-apple-whole"></i></a>
+
+            </div>
+        </div>
+
 
 
 
