@@ -63,9 +63,18 @@
                 </div>
 
                 <!-- Hamburger menu icon for small devices -->
-                <div class="md:hidden flex items-center">
+                <!-- <div class="md:hidden flex items-center">
                     <i class="fa-solid fa-bars text-black text-2xl"></i>
-                </div>
+                </div> -->
+                <details class="dropdown -mb-13 lg:hidden md:hidden">
+                    <summary class="m-1 btn"><i class="fa-solid fa-bars text-black text-2xl"></i></summary>
+                    <ul class="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
+                      <li><a>Home</a></li>
+                      <li><a>About Us</a></li>
+                      <li><a>Shop</a></li>
+                      <li><a>All Fruits</a></li>
+                    </ul>
+                  </details>
 
                 <!-- Right-side search bar -->
                 <div class="hidden md:flex items-center bg-white rounded-full px-4">
@@ -617,12 +626,12 @@
     </div>
 
     <div class="grid grid-flow-col gap-4">
+        <a class="link link-hover">Home</a> 
         <a class="link link-hover">About us</a> 
-        <a class="link link-hover">Contact</a> 
-        <a class="link link-hover">Jobs</a> 
-        <a class="link link-hover">Press kit</a>
-        <a class="link link-hover">Jobs</a> 
-        <a class="link link-hover">Press kit</a>
+        <a class="link link-hover">Shop</a> 
+        <a class="link link-hover">All fruits</a>
+        <a class="link link-hover">Supports</a> 
+        <a class="link link-hover">My Account</a>
       </div> 
       <div>
         <div class="grid grid-flow-col gap-7 ">
